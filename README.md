@@ -1,10 +1,5 @@
 # Tarjeta de crédito válida
 
-Este es el cambio de prueba
-este es el segundo camibo de prueba.
-nueva prueba.
-
-
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
