@@ -2,26 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta  name="viewport" content="width=device-width, initial-scale=1">
+    <meta  name="viewport" content="width=device-width, user scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0" >
     <meta name="description" content="Fundación orientada al desarrollo sostenible,bienestar del campesino e impulso del agro Colombiano/Validación de tarjeta de crédito">
     <title>FUNDACION CAGUANA</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--HOME-->
-    <div class="home-box">
+    <!--HEADER-->
+    <div class="header">
     <header>
       <nav class="desk">
         <ul>
+          <li><a href="#"></a>Home</li>
           <li><a href="#"></a>Nosotros</li>
-          <li><a href="#"></a>contacto</li>
-          <li><a href="#"></a>Galeria</li>
+          <li><a href="#"></a>Contacto</li>
         </ul>
       </nav>
         <a class ="donate"href="#"><button>Donar</button></a>
     </header>
-    <h1>FUNDACIÓN CAGUANA</h1>
-    <h3>Labrando vidas</h3>
+  </div>
+    <!--HOME-->
+    <div class="home-box">
+      <div class="Titulo">
+      <h1>FUNDACIÓN CAGUANA</h1>
+      <h3>Labrando vidas</h3>
+    </div>
     </div>
     <!--INICIO-->
     <main>
@@ -61,14 +66,14 @@
           <div class="data-form">
         <h2>Por un futuro sostenible</h2>
           <form action="">
-            <label for="">Nombre</label>
-                  <input id="Name" type="text"class="field">
-                  <label for="">Telefono</label>
-                  <input type="text"class="field">
-                  <label for="">email</label>
-                  <input type="email"class="field">
-                  <label for="">Número de tarjeta</label>
-                  <input id ="TDC" type="text"class="field">
+                  <label for="Name">Nombre</label>
+                  <input id="Name" type="text"class="field" name="user-name">
+                  <label for="Phone">Telefono</label>
+                  <input id="Phone" type="tel"class="field" name="user-phone">
+                  <label for="mail">E-mail</label>
+                  <input id="mail" type="email"class="field" name="user-mail">
+                  <label for="TDC">Número de tarjeta</label>
+                  <input id ="TDC" type="text"class="field" name="user-TC">
                   <button class="send-btn btn">Enviar</button>
           </form>
         </div>
@@ -82,7 +87,7 @@
         <h2>Por un futuro sostenible</h2>
           <h2 id="user-name"></h2>
           <h3>Su número de tarjeta es</h3>
-          <h4 id="TDC-number"></h4>
+          <h4 id="TDC-mask"></h4>
           <button class="validate-btn btn">Validar</button>
         </div>
         </div>
@@ -92,19 +97,18 @@
           <div class="validation-true">
             <h2>Gracias</h2>
             <p>Tu aporte transfoma vidas</p>
-          </div>
-         <button class="home-btn btn">Regresar</button>
+          <button class="home-btn btn">Regresar</button>
+        </div>
         </div>
         <!--MENSAJE/TARJETA NO VALIDA-->
         <div id="denied" class="validation">
           <div class="validation-true">
-            <h2></h2>
-            <p></p>
-          </div>
-         <button class="home-btn btn">Regresar</button>
-         <button class="form-btn btn">De nuevo</button>
+            <h2>Tarjeta no valida</h2>
+            <p>"El campo son los pies que sostienen la nación"<em>Tomas Moro</em></p>
+          <button class="home-btn btn">Home</button>
+          <button class="form-btn btn">De nuevo</button>
         </div>
-
+        </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
