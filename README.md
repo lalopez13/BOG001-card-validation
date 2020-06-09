@@ -1,5 +1,5 @@
 # Tarjeta de crédito válida
-NUEVA PRUEBA
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
