@@ -14,3 +14,62 @@ La elección del producto final, es resultado de intereses comunes y de la fuert
 
 * Las tecnologías de la comunicación actualmente representa la existencia de problemas y soluciones en un mundo donde la tecnología tiene un papel protagónico, es por esto que por medio de esta página se expone un problema interno que es el abandono, el desperdicio y el
 desinterés de las zonas rurales que son fundamentales para el crecimiento de Colombia, por esto el poder de la visibilidad que le otorga nuestra página, concebida para la inclusión de toda la población debido que la desigualdad engloba la tecnología y esta problemática puede solucionar brechas y construir un país solidario que comprenda todas las realidades y contextos que Colombia presenta, coadyuvando mediante donaciones.
+
+### PROTOTIPOS
+
+* Primer sketch del proyecto a baja fidelidad hecho en lápiz y papel.
+<img src="https://github.com/lalopez13/BOG001-card-validation/blob/L-UPDATE/src/IMG/prototipo1.jpg" alt="First sketches of the project" width="600" />
+<img src="https://github.com/lalopez13/BOG001-card-validation/blob/L-UPDATE/src/IMG/prototipo1.1.jpg" alt="First sketches for the project" width="600" />
+* Primer sketch digital
+* Segundo sketch digital
+
+### Objetivos de aprendizaje
+
+Trabajando en parejas aprenderán a construir una aplicación web que interactuará
+con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
+como tecnologías.
+
+Reflexiona y luego marca los objetivos que has llegado a **entender** y
+**aplicar** en tu proyecto.
+
+### UX
+
+* [ ] Diseñar la aplicación pensando y entendiendo al usuario
+* [ ] Crear prototipos para obtener feedback e iterar
+* [ ] Aplicar los principios de diseño visual
+
+### HTML y CSS
+
+* [ ] Uso correcto de HTML semántico
+* [ ] Uso de selectores de CSS
+* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+* [ ] Uso de selectores de nodos del DOM
+* [ ] Manejo de eventos del DOM
+* [ ] Manipulación dinámica del DOM
+
+### Javascript
+
+* [ ] Manipulación de strings
+* [ ] Uso de condicionales
+* [ ] Uso de bucles
+* [ ] Uso de funciones
+* [ ] Datos atómicos y estructurados
+* [ ] Utilizar ES Modules (`import` | `export`).
+
+### Testing
+
+* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
+
+### Git y GitHub
+
+* [ ] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+* [ ] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
+
+### Buenas prácticas de desarrollo
+
+* [ ] Organizar y dividir el código en módulos (Modularización).
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
