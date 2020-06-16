@@ -2,112 +2,163 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta  name="viewport" content="width=device-width, user scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Fundación orientada al desarrollo sostenible,bienestar del campesino e impulso del agro Colombiano/Validación de tarjeta de crédito">
     <title>FUNDACION CAGUANA</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="main-box"><!--caja padre-->
     <!--HEADER-->
     <div class="header">
     <header>
       <nav class="desk">
-        <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Nosotros</li>
-          <li><a href="#"></a>Contacto</li>
-        </ul>
+        <a href= "#aboutUs">Nosotros</a>
+        <a href="#footer">Contacto</a>
+        <a href="#home-box">Home</a>
       </nav>
-        <a class ="donate"href="#"><button>Donar</button></a>
     </header>
   </div>
     <!--HOME-->
-    <div class="home-box">
-      <div class="Titulo">
+    <section class="home-box">
+      <div class="title">
       <h1>FUNDACIÓN CAGUANA</h1>
       <h3>Labrando vidas</h3>
+         <a href="#select-donate" class="donate-btn btn" type="button">DONAR</a>
+    </section>
     </div>
-    </div>
-    <!--INICIO-->
-    <main>
-      <section id="inicio">
-        <article class="">
-          Articulo principal Inicio
-        </article>
-        <article class="">
-          Sección de noticias
-        </article>
+    <!--NOSOTROS-->
+    <section class="aboutUs" id="aboutUs">
+          <article class="main-article">
+            <h1>Colombia país de agricultores</h1><br><br>
+            <div class="subject">
+              <p id="subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img  class="img-subject" src="imagenes/cocoa-man-colombia.jpeg" width= "50%" >
+              </div>
+          </article>
+
+        <aside class="article-section">
+          <div class="articles">
+            <img src="imagenes/maise.jpeg" width="100%"><a>Lorem ipsum dolor sit</a>
+          </div>
+          <div class="articles">
+            <img src="imagenes/bees.jpeg" width="100%"><a>Lorem ipsum dolor sit</a>
+          </div>
+          <div class="articles">
+            <img src="imagenes/platano-man.jpeg" width="100%"><a>Lorem ipsum dolor sit</a>
+          </div>
+        </aside>
       </section>
-      <section id="Farmers">
-        <h1>NUESTROS CAMPESINOS</h1>
-        <article class="Farmer">
-          <h2>Mario Fernandez</h2>  
-          <h3>Agricultor Cauca</h3>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
-          <button name="Donate">Donar</button>
-        </article>
-        <article class="Farmer">
+      <!--DONAR-->
+      <section class="selectdonate" id="select-donate">
+        <div class="title">
+          <h1>NUESTROS CAMPESINOS</h1>
+        </div>
+        <div class="select">
+          <article class="Farmer">
+            <h2>Mario Fernández</h2>
+            <h3>Agricultor Cauca</h3> <br><br>
+            <img class="imgradius" src="imagenes/mario-fernandez.webp" width="100%">
+            <br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br>
+            <button onclick="show();"  class="donate-btn btn">DONAR</button>
+          </article>
+          <article class="Farmer">
             <h2>Luisa Reyes</h2>
-            <h3>Agricultor Boyaca</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
-          <button name="Donate">Donar</button>
-        </article>
-        <article class="Farmer">
-            <h2>Antonia López</h2>
-          <h3>Agricultor Huila</h3>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
-          <button name="Donate">Donar</button>
-        </article>
+            <h3>Agricultor Boyacá</h3> <br><br>
+              <img class="imgradius" src="imagenes/luisa-reyes.jpg" width="100%">
+              <br><br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <br><br>
+            <button onclick="show();" class="donate-btn btn">DONAR</button>
+          </article>
+          <article class="Farmer">
+              <h2>Antonia López</h2>
+                <h3>Agricultor Huila</h3> <br><br>
+              <img class="imgradius" src="imagenes/antonia-lopez.jpg" width="100%">
+              <br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br>
+            <button onclick="show();" class="donate-btn btn">DONAR</button>
+          </article>
+        </div>
       </section>
       <!--FORMULARIOS/VISTA1-->
-      <div class="box-form">
-        <div class="user-form">
-          <div class="picture"> </div>
-          <div class="data-form">
-        <h2>Por un futuro sostenible</h2>
-          <form action="">
-                  <label for="Name">Nombre</label>
-                  <input id="Name" type="text"class="field" name="user-name">
-                  <label for="Phone">Telefono</label>
-                  <input id="Phone" type="tel"class="field" name="user-phone">
-                  <label for="mail">E-mail</label>
-                  <input id="mail" type="email"class="field" name="user-mail">
-                  <label for="TDC">Número de tarjeta</label>
-                  <input id ="TDC" type="text"class="field" name="user-TC">
-                  <button class="send-btn btn">Enviar</button>
+    <div id="donation-Form" style="display:block" class="box-form">
+      <div class="user-form">
+        <div class="picture"> </div>
+        <div class="data-form">
+          <h2>Por un futuro sostenible</h2>
+
+          <form id="form-box"style="display:block" onsubmit="return (maskify() || isValid());">
+            <label for="name">Nombre</label>
+            <br>
+            <input id="name" type="text" class="field" name="user-name" required="required"/>
+            <br>
+            <label for="phone">Telefono</label>
+            <br>
+            <input id="phone" type="tel" class="field" name="user-phone" required="required"/>
+            <br>
+            <label for="mail">E-mail</label>
+            <br>
+            <input id="mail" type="email" class="field" name="user-mail" required="required"/>
+            <br>
+            <label for="numberCreditCard">Número de tarjeta</label>
+            <br>
+            <input id ="numberCreditCard" type="text" class="field" pattern="^[0-9]*$" name="user-TC" maxlength="16" required="required"/>
+            <span id="false"></span>
+            <button style="display:block"  id="valid" type="submit" class="send-btn form-btn">Validar</button>
+            <button style="display:none" id="back" class="back-btn form-btn" onClick="window.location.reload();">Regresar</button>
           </form>
-        </div>
-        </div>
-      </div>
-      <!--FORMULARIOS/VISTA2-->
-      <div class="box-form">
-        <div class="user-form">
-          <div class="picture"> </div>
-          <div class="data-form">
-        <h2>Por un futuro sostenible</h2>
-          <h2 id="user-name"></h2>
-          <h3>Su número de tarjeta es</h3>
-          <h4 id="TDC-mask"></h4>
-          <button class="validate-btn btn">Validar</button>
-        </div>
+          <!--MENSAJE/TARJETA VALIDA-->
+          <div style="display:none" class="validation" id="pass">
+            <div class="validation-true">
+              <hr>
+              <h3>Aporte realizado con Tarjeta de credito N°</h3>
+              <h4 id="numberCreditCard-mask"></h4>
+              <p>"El campo son los pies que sostienen la nación"<br><em>Tomas Moro</em></p>
+              <br>
+              <button class="back-btn form-btn"onClick="window.location.reload();">Regresar</button>
+            </div>
+          </div>
+
         </div>
       </div>
-        <!--MENSAJE/TARJETA VALIDA-->
-        <div id ="pass" class="validation">
-          <div class="validation-true">
-            <h2>Gracias</h2>
-            <p>Tu aporte transfoma vidas</p>
-          <button class="home-btn btn">Regresar</button>
+    </div>
+        <!--FOOTER-->
+        <footer id="footer">
+          <div class="footer-box">
+            <div class="footer-left section">
+              <img class="logo"src="imagenes/LOGOFUN.png" alt="logotipo" >
+              <div class="social-media">
+                <img src="imagenes/redes sociales.png" alt="redes" >
+              </div>
+            </div>
+
+            <div class="footer-middle section">
+            <h3>ALIADOS</h3>
+            <div class="link">
+            <a href="https://fundacioncompartir.org/"target="_blank">Fundación compartir</a>
+            <a href="https://www.planetarural.org/"target="_blank">Planeta rural</a>
+            <a href="https://fcds.org.co/"target="_blank">FCDS</a>
+            <a href="http://www.natura.org.co/"target="_blank">Fundacion Natura</a>
+          </div>
         </div>
+        
+            
+            <div class="footer-right section">
+            <h3>CONTACTO</h3>
+            <p>Carrera 16 #97-46</p>
+            <p>3213542626</p>
+            <p>Bogotá-Colombia</p>
+            <p>funcaguana@org.co</p>
+          </div> 
         </div>
-        <!--MENSAJE/TARJETA NO VALIDA-->
-        <div id="denied" class="validation">
-          <div class="validation-true">
-            <h2>Tarjeta no valida</h2>
-            <p>"El campo son los pies que sostienen la nación"<em>Tomas Moro</em></p>
-          <button class="home-btn btn">Home</button>
-          <button class="form-btn btn">De nuevo</button>
-        </div>
+        <!--<div id="copyright">«Copyright © 2020 | Diana Olarte, Laura López»</div>-->
+
+    
+      </footer>
         </div>
     <script src="index.js" type="module"></script>
   </body>
