@@ -21,6 +21,9 @@ desinterés de las zonas rurales que son fundamentales para el crecimiento de Co
 <img src="https://github.com/lalopez13/BOG001-card-validation/blob/L-UPDATE/src/IMG/prototipo.jpg" alt="First sketches of the project" width="500" />
 
 * Primer sketch digital
+<img src="https://github.com/lalopez13/BOG001-card-validation/blob/L-UPDATE/src/IMG/protoipo-2.gif" alt="Second sketch of the project" width="500" />
+
+
 * Segundo sketch digital
 
 ### Objetivos de aprendizaje
