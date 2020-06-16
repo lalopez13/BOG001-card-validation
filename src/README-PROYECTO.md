@@ -25,6 +25,9 @@ desinterés de las zonas rurales que son fundamentales para el crecimiento de Co
 
 
 * Segundo sketch digital
+<img src="https://github.com/lalopez13/BOG001-card-validation/blob/L-UPDATE/src/IMG/prototipo-3.gif" alt="Second sketch of the project" width="500" />
+
+Se le hicieron ajustes de acuerdo al feedback donde parte del diseño cambio segun se hacia la maquetación del HTML y los estilos CSS, para que cada elemento se adaptara de mejor y lograr que la parte visual de la pagina fuera lo mas cercano al prototipo.
 
 ### Objetivos de aprendizaje
 
