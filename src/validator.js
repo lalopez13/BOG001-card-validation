@@ -4,10 +4,10 @@ const validator = {
 };
 
 export default validator;
-function maskify(){
-  var number = creditCardNumber.value;
-  console.log(number)
-  if(number.length>4){
+function maskify(creditCardNumber){
+  creditCardNumber.value;
+  //console.log(number)
+  if(creditCardNumber.value>4){
     var cutNumber = number.substr(0,number.length-4);
     var changeString = cutNumber.replace(/[a-z0-9]/g, '#');
     var lastNumber = number.substr(-4);
@@ -20,13 +20,14 @@ function maskify(){
 
 }
 //funcion validar
-function isValid(){
-  number = document.getElementById("numberCreditCard").value;
+let array = [];
+function isValid(creditCardNumber){
+  
   //convertir a array
-  let newArray = Array.from(number);
+  let newArray = Array.from(creditCardNumber.value);
   //console.log(newArray);
   //Invertir Array
-  reverseArray = newArray.reverse();
+  let reverseArray = newArray.reverse();
   //console.log(reverseArray);
   //recorre el array y busca los números en posición par
   reverseArray.forEach((item, i) => {
@@ -38,7 +39,7 @@ function isValid(){
         //console.log(item);
       }
     }
-    array.push(parseInt(item));
+    let array.push( parseInt(item));
     // Suma los numbers mayores que 10
   });
   checkAlgorithm(array);
