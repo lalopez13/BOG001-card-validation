@@ -25,7 +25,8 @@
       <div class="title">
       <h1>FUNDACIÓN CAGUANA</h1>
       <h3>Labrando vidas</h3>
-         <a href="#select-donate" class="donate-btn btn" type="button">DONAR</a>
+      </div>
+      <a href="#select-donate" class="donate-btn btn" type="button">DONAR</a>
     </section>
     </div>
     <!--NOSOTROS-->
@@ -92,7 +93,7 @@
         <div class="data-form">
           <h2>Por un futuro sostenible</h2>
 
-          <form id="form-box"style="display:block" onsubmit="return verifiedSubmit();">
+          <form id="form-box"style="display:block" onsubmit=" return verifiedSubmit();" > 
             <label for="name">Nombre</label>
             <br>
             <input id="name" type="text" class="field" name="user-name" required="required"/>
@@ -110,7 +111,7 @@
             <input id ="numberCreditCard" type="text" class="field" pattern="^[0-9]*$" name="user-TC" maxlength="16" required="required"/>
             <span id="false"></span>
             <button style="display:block"  id="valid" type="submit" class="send-btn form-btn">Validar</button>
-            <button style="display:none" id="back" class="back-btn form-btn" onClick="window.location.reload();">Regresar</button>
+            <button style="display:none" id="back" class="back-btn form-btn" onclick="window.location.reload();">Regresar</button>
           </form>
           <!--MENSAJE/TARJETA VALIDA-->
           <div style="display:none" class="validation" id="pass">
@@ -120,7 +121,7 @@
               <h4 id="creditCardNumberId-mask"></h4>
               <p>"El campo son los pies que sostienen la nación"<br><em>Tomas Moro</em></p>
               <br>
-              <button class="back-btn form-btn"onClick="window.location.reload();">Regresar</button>
+              <button class="back-btn form-btn" onclick="window.location.reload();" >Regresar</button >
             </div>
           </div>
 
@@ -155,9 +156,7 @@
           <p>funcaguana@org.co</p>
         </div>
       </div>
-      <!--<div id="copyright">«Copyright © 2020 | Diana Olarte, Laura López»</div>-->
     </footer>
-  </div>
   <script type="module" src="index.js"></script>
 </body>
 </html>
