@@ -24,7 +24,7 @@
       <div class="title">
       <h1>FUNDACIÓN CAGUANA</h1>
       <h3>Labrando vidas</h3>
-      <a href="#select-donate" class="donate-btn btn" type="button">DONAR</a>
+         <a href="#select-donate" class="donate-btn btn" type="button">DONAR</a>
     </section>
     </div>
     <!--NOSOTROS-->
@@ -33,7 +33,7 @@
             <h1>Colombia país de agricultores</h1><br><br>
             <div class="subject">
               <p id="subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <img  class="img-subject" src="imagenes/cocoa-man-colombia.jpeg" width= "50%" >
+                <!-- <img  class="img-subject" src="imagenes/cocoa-man-colombia.jpeg" width= "50%" > -->
               </div>
           </article>
 
@@ -42,10 +42,10 @@
             <img src="imagenes/maise.jpeg" width="100%"><a>Lorem ipsum dolor sit</a>
           </div>
           <div class="articles">
-            <img src="imagenes/bees.jpeg" width="100%"><a>Lorem ipsum dolor sit</a>
+            <!-- <img src="imagenes/bees.jpeg" width="100%"><a>Lorem ipsum dolor sit</a> -->
           </div>
           <div class="articles">
-            <img src="imagenes/platano-man.jpeg" width="100%"><a>Lorem ipsum dolor sit</a>
+            <!-- <img src="imagenes/platano-man.jpeg" width="100%"><a>Lorem ipsum dolor sit</a> -->
           </div>
         </aside>
       </section>
@@ -58,7 +58,7 @@
           <article class="Farmer">
             <h2>Mario Fernández</h2>
             <h3>Agricultor Cauca</h3> <br><br>
-            <img class="imgradius" src="imagenes/mario-fernandez.webp" width="100%">
+            <!-- <img class="imgradius" src="imagenes/mario-fernandez.webp" width="100%"> -->
             <br><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <br><br>
@@ -67,7 +67,7 @@
           <article class="Farmer">
             <h2>Luisa Reyes</h2>
             <h3>Agricultor Boyacá</h3> <br><br>
-              <img class="imgradius" src="imagenes/luisa-reyes.jpg" width="100%">
+              <!-- <img class="imgradius" src="imagenes/luisa-reyes.jpg" width="100%"> -->
               <br><br>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <br><br>
@@ -76,7 +76,7 @@
           <article class="Farmer">
               <h2>Antonia López</h2>
                 <h3>Agricultor Huila</h3> <br><br>
-              <img class="imgradius" src="imagenes/antonia-lopez.jpg" width="100%">
+              <!-- <img class="imgradius" src="imagenes/antonia-lopez.jpg" width="100%"> -->
               <br><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <br><br>
@@ -91,7 +91,7 @@
         <div class="data-form">
           <h2>Por un futuro sostenible</h2>
 
-          <form id="form-box"style="display:block" onsubmit="return (maskify() || isValid());">
+          <form id="form-box"style="display:block" onsubmit="return verifiedSubmit();">
             <label for="name">Nombre</label>
             <br>
             <input id="name" type="text" class="field" name="user-name" required="required"/>
@@ -116,7 +116,7 @@
             <div class="validation-true">
               <hr>
               <h3>Aporte realizado con Tarjeta de credito N°</h3>
-              <h4 id="numberCreditCard-mask"></h4>
+              <h4 id="creditCardNumberId-mask"></h4>
               <p>"El campo son los pies que sostienen la nación"<br><em>Tomas Moro</em></p>
               <br>
               <button class="back-btn form-btn"onClick="window.location.reload();">Regresar</button>
@@ -130,9 +130,9 @@
     <footer id="footer">
       <div class="footer-box">
         <div class="footer-left section">
-          <img class="logo" src="LOGOFUN.png" alt="logotipo" >
+          <img class="logo" src="imagenes/LOGOFUN.png" alt="logotipo" >
           <div class="social-media">
-            <img src="redes sociales.png" alt="redes" >
+            <img src="imagenes/redes sociales.png" alt="redes" >
           </div>
         </div>
 
@@ -157,6 +157,6 @@
       <!--<div id="copyright">«Copyright © 2020 | Diana Olarte, Laura López»</div>-->
     </footer>
   </div>
-  <script src="index.js" type="module"></script>
+  <script type="module" src="index.js"></script>
 </body>
 </html>
