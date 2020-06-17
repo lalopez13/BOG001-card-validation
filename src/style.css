@@ -106,7 +106,7 @@ justify-content: flex-end;
         align-items: center;
         justify-content: center;
         text-align:center;
-        background: url("imagenes/principal..jpg");
+        background: url("IMG/HOME.jpg");
         background-size: cover;
         display: flex;
         width: 100%;
@@ -246,6 +246,7 @@ display: block;
   text-align: center;
   margin-top: -10px;
 }*/
+
 /*FORMULARIOS*/
 .box-form{
   position: relative;
@@ -257,66 +258,6 @@ display: block;
   padding: 20px 100px;
   margin-right:auto;
 }
-.user-form{
-  max-width: 800px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  box-shadow: 0 0 10px 10px rgba(122, 122, 122, 0.19);
-}
-.picture{
-  height: 100%;
-  background: url("imagenes/fondo.jpg") no-repeat center;
-  background-size: cover;
-}
-.data-form{
-  padding: 20px 80px;
-}
-.data-form h2,h3{
-  position: relative;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  opacity: 70%;
-}
-.field{
-  width: 100%;
-  padding:2px 5px;
-  outline: none;
-  border: 2px solid rgba(0,0,0,0);
-  background-color: rgba(214, 210, 210, 0.6);
-  margin-bottom: 22px;
-}
-
-.field:hover{
-  background-color: rgba(0,0,0,0.1);
-}
-.field:focus{
-  background-color: #fff;
-  border: 2px solid rgba(26, 250, 145, 0.47);
-}
-label{
-  text-align: left;
-}
-
-.send-btn{
-  align-items: center;
-  width: 90%;
-  text-align: center;
-  padding: 10px 20px;
-  background-color: #006E61;
-  outline: none;
-  border: none;
-  color: #fff;
-  margin-left: 15px;
-}
-.send-btn:hover{
-background-color: gray;
-}
-/*FORMULARIOS*/
-
 .user-form{
   margin-left: auto;
   margin-right: auto;
@@ -334,14 +275,13 @@ background-color: gray;
 }
 @keyframes change {
 0%{
-  background: url("imagenes/platanos.jpg") no-repeat center;
+  background: url("IMG/platanos.jpg") no-repeat center;
   background-size: cover;
 }
 100%{
-  background: url("imagenes/formimg.jpg") no-repeat center;
+  background: url("IMG/formimg.jpg") no-repeat center;
   background-size: cover;
 }
-
 }
 
 .data-form{
