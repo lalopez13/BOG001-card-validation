@@ -1,5 +1,5 @@
 # FUNDACION CAGUANA
-<img src="" alt="First sketches of the project" width="500" />
+<img src="https://github.com/lalopez13/BOG001-card-validation/blob/L-UPDATE/src/IMG/LOGOFUNBLACK.png" alt="logo" width="500" />
 
 La elección del producto final, es resultado de intereses comunes y de la fuerte necesidad de hacer un proyecto con propósito, enfocado siempre desde nuestro rol como desarrolladoras a ofrecer soluciones mediante propuestas tecnologicas que funcionen como un puente entre todos los individuos
 
