@@ -3,7 +3,7 @@
 
 La elección del producto final, es resultado de intereses comunes y de la fuerte necesidad de hacer un proyecto con propósito, enfocado siempre desde nuestro rol como desarrolladoras a ofrecer soluciones mediante propuestas tecnologicas que funcionen como un puente entre todos los individuos
 
-## INVESTIGACIÓN UX
+## INVESTIGACIÓN UX  📌
 
 ### Quienes son los principales usuarios del producto
 * Los usuarios a quienes se dirige esta propuesta son los ciudadanos (excluyendo a los campesinos,quienes son los beneficiarios) que conformen la población productiva del país y que a través de donaciones se cumpla el objetivo de la fundación.
@@ -17,7 +17,7 @@ La elección del producto final, es resultado de intereses comunes y de la fuert
 * Las tecnologías de la comunicación actualmente representa la existencia de problemas y soluciones en un mundo donde la tecnología tiene un papel protagónico, es por esto que por medio de esta página se expone un problema interno que es el abandono, el desperdicio y el
 desinterés de las zonas rurales que son fundamentales para el crecimiento de Colombia, por esto el poder de la visibilidad que le otorga nuestra página, concebida para la inclusión de toda la población debido que la desigualdad engloba la tecnología y esta problemática puede solucionar brechas y construir un país solidario que comprenda todas las realidades y contextos que Colombia presenta, coadyuvando mediante donaciones.
 
-### PROTOTIPOS
+### PROTOTIPOS 📋
 
 * Primer sketch del proyecto a baja fidelidad hecho en lápiz y papel.
 <img src="https://github.com/lalopez13/BOG001-card-validation/blob/L-UPDATE/src/IMG/prototipo.jpg" alt="First sketches of the project" width="500" />
@@ -31,7 +31,7 @@ desinterés de las zonas rurales que son fundamentales para el crecimiento de Co
 
 Se le hicieron ajustes de acuerdo al feedback donde parte del diseño cambio segun se hacia la maquetación del HTML y los estilos CSS, para que cada elemento se adaptara de mejor y lograr que la parte visual de la pagina fuera lo mas cercano al prototipo.
 
-### Objetivos de aprendizaje
+### Objetivos de aprendizaje 🚀
 
 Trabajando en parejas aprenderán a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
