@@ -2,6 +2,7 @@
 /*REGLAS GENERALES*/
 :root {
   --yellow: #f1b32d;
+  --white:whitesmoke;
 }
 
 * {
@@ -25,15 +26,15 @@ h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 50px;
   font-weight: 500;
-  border-bottom: solid 1px #f1b32d;
+  border-bottom: solid 1px var(--yellow);
   display: inline;
   text-transform: uppercase;
-  color: #f1b32d;
+  color: var(--yellow);
 }
 
 .btn {
   padding: 10px 40px;
-  color: white;
+  color:var(--white);
   text-decoration: none;
   cursor: pointer;
   border-radius: 2px;
@@ -47,20 +48,20 @@ a.donate-btn {
   justify-content: center;
   color: gray;
   margin-top: 5px;
-  background-color: whitesmoke;
+  background-color: var(--white);
 }
 a.donate-btn:hover {
   background-color: var(--yellow);
-  color: white;
+  color: var(--white);
 }
 
 .donate-btn {
   background-color: var(--yellow);
-  color: white;
+  color: var(--white);
 }
 .donate-btn:hover {
   background-color: #3a4e54;
-  color: white;
+  color:var(--white);
 }
 
 /*HOME-NAV BAR*/
@@ -77,14 +78,14 @@ header {
 }
 
 .home-box h1 {
-  color: white;
+  color:var(--white);
   margin-top: 100px;
   font-weight: 200;
   font-size: 50px;
 }
 
 .home-box h3 {
-  color: white;
+  color: var(--white);
   margin: 30px 0px;
   font-weight: lighter;
   letter-spacing: 3px;
@@ -94,9 +95,9 @@ header {
 nav > a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #ffffff;
+  color:var(--white);
   padding: 0px 20px;
-  border-right: 1px solid #ffff;
+  border-right: 1px solid var(--white);
 }
 
 nav > a:hover {
@@ -116,7 +117,7 @@ nav > a:hover {
 }
 
 .home-box h1 {
-  color: white;
+  color:var(--white);
   margin-top: 100px;
   font-weight: 100;
   font-size: 50px;
@@ -177,6 +178,10 @@ section {
 #subject {
   margin: 20px;
 }
+#cita{
+  text-decoration: none;
+  color: #006e61 ;
+}
 /*NUESTROS CAMPESINOS*/
 
 .selectdonate {
@@ -206,7 +211,7 @@ section {
   height: 150px;
   clear: both;
   display: flex;
-  color: whitesmoke;
+  color:var(--white);
 }
 .footer-box .section {
   flex: 1 1 auto;
@@ -224,22 +229,20 @@ section {
 }
 
 .footer-middle .link a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
   font-size: small;
   padding-bottom: 2px;
   display: block;
 }
+.footer-middle .link a:hover{
+  color:#006E61;
+}
 .footer-right p {
   font-size: small;
   padding-bottom: 2px;
 }
-/*#copyright{
-  background-color:#bb8b247e;
-  color:gray;
-  text-align: center;
-  margin-top: -10px;
-}*/
+
 
 /*FORMULARIOS*/
 .box-form {
@@ -260,7 +263,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--white);
   box-shadow: 0 0 10px 10px rgba(122, 122, 122, 0.19);
 }
 .picture {
@@ -320,7 +323,7 @@ label {
   background-color: #006e61;
   outline: none;
   border: none;
-  color: #fff;
+  color: var(--white);
   margin-left: 15px;
 }
 .form-btn:hover {
