@@ -2,10 +2,10 @@ const validator = {
   maskify:(creditCardNumber) => {
     //console.log(creditCardNumber);
     if (creditCardNumber.length > 4) {
-      var cutNumber = creditCardNumber.substr(0, creditCardNumber.length - 4);
-      var changeString = cutNumber.replace(/[a-z0-9]/g, "#");
-      var lastNumber = creditCardNumber.substr(-4);
-      var fullNumber = changeString.concat(lastNumber);
+      let cutNumber = creditCardNumber.substr(0, creditCardNumber.length - 4);
+      let changeString = cutNumber.replace(/[a-z0-9]/g, "#");
+      let lastNumber = creditCardNumber.substr(-4);
+      let fullNumber = changeString.concat(lastNumber);
       return fullNumber;
     } else {
       return creditCardNumber;
