@@ -42,7 +42,7 @@ h1 {
 }
 
 /*REGLAS BOTONES*/
-a.donate-btn {
+.main-btn {
   border-radius: 5px;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@ a.donate-btn {
   margin-top: 5px;
   background-color: var(--white);
 }
-a.donate-btn:hover {
+.main-btn:hover {
   background-color: var(--yellow);
   color: var(--white);
 }
@@ -185,7 +185,7 @@ section {
   padding: 30px;
   justify-content: center;
   margin: 10px;
-  border: solid 5px #ffe7af;
+  border: solid 3px #ffe7af;
   border-radius: 5px;
   text-align: center;
 }
