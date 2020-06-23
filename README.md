@@ -54,17 +54,17 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### DOM
 
-* [ ] Uso de selectores de nodos del DOM
-* [ ] Manejo de eventos del DOM
+* [x] Uso de selectores de nodos del DOM
+* [x] Manejo de eventos del DOM
 * [ ] Manipulación dinámica del DOM
 
 ### Javascript
 
-* [ ] Manipulación de strings
+* [x] Manipulación de strings
 * [x] Uso de condicionales
 * [ ] Uso de bucles
-* [ ] Uso de funciones
-* [ ] Datos atómicos y estructurados
+* [x] Uso de funciones
+* [x] Datos atómicos y estructurados
 * [ ] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
